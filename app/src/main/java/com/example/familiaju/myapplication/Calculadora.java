@@ -24,7 +24,7 @@ public class Calculadora extends Activity {
                     conta = valor1 + valor2;
                     str = Float.toString(conta);
                 } else if (operador.contains("-")) {
-                    conta = valor1 + valor2;
+                    conta = valor1 - valor2;
                     str = Float.toString(conta);
                 }
             }
